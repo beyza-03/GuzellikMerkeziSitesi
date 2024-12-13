@@ -13,6 +13,7 @@ Bu proje, bir güzellik merkezi için tasarlanmış bir web tabanlı yönetim si
 ## Kurulum
 
 Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+![Ekran görüntüsü 2024-12-13 191707](https://github.com/user-attachments/assets/490a7d72-a54c-47c8-86a7-912deb709d3b)
 
 ### Gereksinimler
 - PHP 7.4 veya üstü
@@ -39,10 +40,12 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımlar�
 4. **Tarayıcıda Çalıştırın:**
    - Web tarayıcınızda projeyi açın: `http://localhost/proje_adi`
 
-## Kullanım
+## Kullanım![Ekran görüntüsü 2024-12-13 191639](https://github.com/user-attachments/assets/1afb5394-ab35-4d9e-a4df-127bd05574e6)
+
 
 - **Yönetici Girişi:** `admin-login.php` üzerinden yapılır.
-- **Randevu Yönetimi:** Randevular `appts.php` üzerinden kontrol edilir.
+- **Randevu Yönetimi:** Randevular `appts.php` üzerinden kontrol edilir.![Ekran görüntüsü 2024-12-13 191659](https://github.com/user-attachments/assets/6b08a09c-696e-426c-8e89-2505e60f8a77)
+
 - **Hizmetler Düzenleme:** Yönetim panelinde hizmetleri düzenleyebilirsiniz.
 
 ## Açıklama (Description)
