@@ -50,8 +50,8 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımlar�
 
 Güzellik Merkezi Yönetim Sistemi, güzellik salonlarının operasyonlarını dijitalleştirerek randevu, hizmet ve ekip yönetimini kolaylaştıran bir platformdur. Kullanıcı dostu bir arayüz ve güçlü bir yönetici paneli ile salon sahiplerinin iş süreçlerini daha verimli bir şekilde yönetmesine olanak tanır.
 
-
-![Ekran görüntüsü 2024-12-13 191659](https://github.com/user-attachments/assets/6b08a09c-696e-426c-8e89-2505e60f8a77)
 ![Ekran görüntüsü 2024-12-13 191707](https://github.com/user-attachments/assets/490a7d72-a54c-47c8-86a7-912deb709d3b)
+![Ekran görüntüsü 2024-12-13 191659](https://github.com/user-attachments/assets/6b08a09c-696e-426c-8e89-2505e60f8a77)
+![Ekran görüntüsü 2024-12-13 191639](https://github.com/user-attachments/assets/af020a5e-8311-493b-9fb4-153bdf4a4d83)
 
 
