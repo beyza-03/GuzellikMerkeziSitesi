@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+.hero {
+    background: url('../image/anasayfa.jpg') no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+.hero-content h2 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff4b5c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.campaigns {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Daha açık bir arka plan */
+    border-radius: 10px; /* Hafif yuvarlatma */
+    box-shadow: 0 4px 10 rgba(255, 75, 92, 0.5); /* Hafif gölge efekti */
+}
+
+.campaigns h2 {
+    margin-bottom: 40px;
+    font-size: 48px; /* Büyük yazı boyutu */
+    font-weight: bold; /* Kalın yazı */
+    color: white; /* Yazı rengi beyaz */
+    text-transform: uppercase; /* Harfleri büyük yap */
+    text-align: center; /* Ortaya hizala */
+    padding: 20px;
+    transition: background-color 0.5s ease; /* Arka plan geçiş animasyonu */
+    background-color: #993333; /* İlk başta arka plan rengi */
+}
+
+
+
+.slider-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px; /* İç boşluk ekleyerek daha düzgün görünüm */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    margin-bottom: 30px;
+}
+
+.slide img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.slide h3 {
+    margin-top: 20px;
+    font-size: 24px; /* Başlık font büyüklüğünü artırdım */
+    color: #ff4b5c; /* Başlık rengi kırmızı */
+}
+
+.slide p {
+    font-size: 18px; /* Metin boyutunu artırdım */
+    color: #555; /* Daha koyu metin rengi */
+}
+
+/* Butonlar */
+.btn {
+    background-color: #ff4b5c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px; /* Daha büyük font boyutu */
+    margin-top: 20px; /* Üst boşluk ekleyerek butonları metinden ayırdım */
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #e03e4f;
+    transition: 0.3s ease;
+}
+
+/* Oklar */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Kampanya Metni için Yeni Arka Plan */
+.slide-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Hafif gölgelendirme */
+}
+
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ff4b5c;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.appointment {
+    background-color: #333; /* Koyu arka plan */
+    padding: 30px; /* İç boşluk */
+    text-align: center;
+    border-radius: 10px; /* Kenar yuvarlat */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Gölgelendirme efekti */
+    max-width: 600px; /* Maksimum genişlik */
+    margin: 50px auto; /* Ortala */
+    color: white; /* Yazı rengi beyaz */
+}
+
+.appointment h2 {
+    margin-bottom: 20px; /* Başlık altı boşluk */
+    font-size: 24px; /* Daha küçük başlık */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap; /* Elemanları satıra sarması için */
+    justify-content: space-between; /* Aralarındaki boşluğu eşit dağıt */
+    gap: 10px; /* Elemanlar arası boşluk */
+}
+
+label {
+    font-size: 14px; /* Daha küçük yazı */
+    flex: 1 1 40%; /* Genişliği %40 yap */
+    text-align: left; /* Soldan hizala */
+}
+
+input {
+    padding: 8px; /* İç boşluk */
+    font-size: 14px; /* Yazı boyutu */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Kenar yuvarlatma */
+    flex: 1 1 55%; /* Genişliği %55 yap */
+}
+
+input:focus {
+    outline: none; /* Kenar belirlemesi yok */
+    box-shadow: 0 0 5px rgba(255, 75, 92, 0.5); /* Odaklanınca gölge efekti */
+}
+
+button[type="submit"] {
+    background-color: #ff4b5c; /* Buton rengi */
+    color: white; /* Yazı rengi */
+    padding: 10px; /* İç boşluk */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Kenar yuvarlatma */
+    cursor: pointer; /* İmleç işareti */
+    transition: background-color 0.3s; /* Geçiş efekti */
+    width: 100%; /* Butonun genişliğini %100 yap */
+}
+
+button[type="submit"]:hover {
+    background-color: #e03e4f; /* Hover rengi */
+}
+
+
+.slide img {
+    width: 250px;   /* Görüntü genişliğini 250px yap */
+    height: 250px;  /* Görüntü yüksekliğini 250px yap */
+    object-fit: cover; /* Resmi kırpmadan sabit boyutlara sığdır */
+    border-radius: 10px; /* Kenarları yuvarlat */
+}
+header {
+    background-color: #333; /* Menü arka plan rengi */
+    color: #fff; /* Yazı rengi */
+    display: flex;
+    justify-content: space-between; /* Elemanları yatayda eşit dağıt */
+    align-items: center; /* Elemanları dikeyde ortala */
+    padding: 20px 30px; /* Kalınlık ve genişlik için padding */
+    position: sticky; /* Üstte sabit kalması için */
+    top: 0;
+    z-index: 1000; /* Üstte görünmesini sağla */
+    border-bottom: 2px solid #ff4b5c; /* Alt kısma şerit ekledim */
+}
+
+header .logo h1 {
+    font-size: 28px; /* Logo font büyüklüğü */
+    font-weight: bold; /* Kalın font */
+    color: #fff; /* Logo yazı rengi */
+    margin: 0; /* Logo için ekstra boşluk varsa kaldır */
+}
+
+header nav ul {
+    list-style: none; /* Liste noktalarını kaldır */
+    display: flex; /* Yatay düzen için flex kullan */
+    margin: 0; /* Varsayılan margin'i kaldır */
+    padding: 0; /* Varsayılan padding'i kaldır */
+}
+
+header nav ul li {
+    margin: 0 20px; /* Menü elemanları arasına boşluk koy */
+}
+
+header nav ul li a {
+    color: #fff; /* Link yazı rengi */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    font-size: 18px; /* Link font boyutu */
+    transition: color 0.3s; /* Hover etkisi için geçiş süresi */
+    padding: 10px 15px; /* Daha kalın görünmesi için padding */
+    border-radius: 4px; /* Köşeleri yuvarlat */
+}
+
+header nav ul li a:hover {
+    background-color: #ff4b5c; /* Hover durumunda arka plan rengi */
+    color: #fff; /* Hover durumunda yazı rengi */
+}
+
+
